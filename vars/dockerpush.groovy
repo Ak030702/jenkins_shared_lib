@@ -10,3 +10,4 @@ def call(){
     sh "docker push ${env.usernameDH}/frontend:latest"
     sh "docker push ${env.usernameDH}/backend:latest"
 }
+}
